@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MenuFragment"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/search_button"
+        android:text="@string/menu_search_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/favorites_button"
+        android:text="@string/menu_favorites_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
